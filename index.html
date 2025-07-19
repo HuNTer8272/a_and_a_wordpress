@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- family sub text -->
+    <style>
+      #family-sub-header {
+        color: white;
+        width: 1054.79px;
+        height: 94px;
+        margin: auto;
+        font-family: sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+      }
+    </style>
+    <p id="family-sub-header">
+      We’re proud of the trust we've built.<br />Our customers choose us because
+      they trust us.
+    </p>
+    <!-- family container -->
+    <style>
+      .family-container {
+        padding: 2rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .family-card {
+        width: 305.62px;
+        height: 412.45px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-right: 1rem;
+        padding: 5.5rem 2.5rem;
+        line-height: 1;
+      }
+
+      .family-card > h2 {
+        font-family: sans-serif;
+        font-size: 4rem;
+      }
+
+      .family-card > p {
+        margin-top: 2rem;
+        font-family: sans-serif;
+        font-size: 2.25rem;
+        color: #000000;
+        font-weight: 550;
+      }
+    </style>
+    <div class="family-container">
+      <div class="family-card">
+        <h2>01</h2>
+        <p>Show up when we say we will</p>
+      </div>
+      <div class="family-card">
+        <h2>02</h2>
+        <p>Offer Competitive Rates</p>
+      </div>
+      <div class="family-card">
+        <h2>03</h2>
+        <p>Provide Professional Service</p>
+      </div>
+      <div class="family-card">
+        <h2>04</h2>
+        <p>Fix the problem - FAST</p>
+      </div>
+      <div class="family-card">
+        <h2>05</h2>
+        <p>Keep our word</p>
+      </div>
+    </div>
+    <!-- family end text -->
+    <style>
+      .family-end-text {
+        width: 1054.79px;
+        height: 94px;
+        margin: auto;
+        font-family: sans-serif;
+        font-size: 2.25rem;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 1;
+      }
+
+      .family-end-text span {
+        font-weight: 600;
+      }
+    </style>
+    <div class="family-end-text">
+      <p>Broken appliance stressing you out?<span> We’ve got this</span></p>
+    </div>
+
+    <!-- leave-msg container -->
+    <style>
+      .leave-msg-container {
+        width: 100vw;
+        height: 810px;
+        background: #ffffff;
+        display: flex;
+        padding: 4rem 2rem;
+        font-family: sans-serif;
+      }
+      .leave-msg-text-container,
+      .leave-msg-img-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+      }
+
+      .leave-msg-text-container {
+        flex-direction: column;
+        padding: 1.5rem 2rem;
+        & > h2 {
+          font-size: 3rem;
+          font-weight: 600;
+        }
+        & > p {
+          width: 810px;
+          font-size: 2.25rem;
+          margin-top: 3rem;
+          text-align: justify;
+          line-height: 1.2;
+        }
+
+        & > button {
+          margin-top: 2.5rem;
+          width: 362px;
+          height: 77px;
+          background: transparent;
+          border: 2.5px solid black;
+          border-radius: 45px;
+          font-size: 2rem;
+          font-weight: 500;
+          color: black;
+          cursor: pointer;
+        }
+      }
+
+      .leave-msg-img-container {
+        position: relative;
+        & > #leave-msg-img-1 {
+          width: 727px;
+          height: 582px;
+          object-fit: cover;
+        }
+
+        & > #leave-msg-img-2 {
+          width: 460px;
+          height: 380px;
+          position: absolute;
+          bottom: 3rem;
+          right: 3rem;
+        }
+      }
+    </style>
+    <div class="leave-msg-container">
+      <!-- leave-msg-text-container -->
+      <div class="leave-msg-text-container">
+        <h2>Fast Fixes, Honest Prices—because your time is valuable.</h2>
+        <p>
+          Life moves fast. Appliances should too. When something stops working,
+          A&A Appliance Repair offers timely service to get your household
+          appliances up and running so that you can get back to enjoying your
+          day
+        </p>
+        <button>Leave a message</button>
+      </div>
+      <!-- leave-msg-img-container -->
+      <div class="leave-msg-img-container">
+        <img
+          id="leave-msg-img-1"
+          src="https://aarepair.wsihublab.com/wp-content/uploads/2025/07/Fastfixes_1.png"
+          alt="image" />
+        <img
+          id="leave-msg-img-2"
+          src="https://aarepair.wsihublab.com/wp-content/uploads/2025/07/Fastfixes_2.png"
+          alt="image" />
+      </div>
+    </div>
+
+    <!-- get-in-touch -->
+    <style>
+      .get-in-touch {
+        display: flex;
+        padding: 6rem 4rem 2rem 4rem;
+        font-family: sans-serif;
+        color: white;
+      }
+
+      .get-in-touch-text-container {
+        width: 40%;
+        height: 100%;
+
+      }
+      .get-in-touch-form-container {
+        width: 60%;
+        height: 100%;
+      }
+
+      .get-in-touch-text-container {
+        & > h2 {
+          font-size: 4rem;
+          margin-bottom: 1rem;
+        }
+
+        & > p {
+          font-size: 2.25rem;
+          margin-top: 1.8rem;
+          line-height: 1.2;
+          width: 650px;
+        }
+      }
+
+      .get-in-touch-form-upper-section {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+
+        & h3 {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      .get-in-touch-form {
+        padding-top: 2rem;
+
+        & > input {
+          width: 100%;
+          height: 70px;
+          font-size: 2rem;
+          background: transparent;
+          border: none;
+          border-bottom: 1px solid white;
+          outline: none;
+          color: white;
+          margin-bottom: 1.5rem;
+
+          /* Placeholder text for all browsers */
+          &::placeholder {
+            color: white;
+            opacity: 1; /* Required for Firefox */
+          }
+
+          &::-webkit-input-placeholder {
+            color: white;
+          }
+
+          &:-ms-input-placeholder {
+            color: white;
+          }
+
+          &::-ms-input-placeholder {
+            color: white;
+          }
+        }
+      }
+
+      .get-in-touch-form-bottom-section {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+      }
+    </style>
+
+    <div class="get-in-touch">
+      <!-- get-in-touch-text-container -->
+      <div class="get-in-touch-text-container">
+        <h2>Get in Touch</h2>
+        <p>
+          We'd love to hear from you! Whether you have questions, feedback, or
+          just want to say hello, feel free to reach out.
+        </p>
+        <p>
+          You can contact us via email, phone, or our social media channels.
+        </p>
+        <p>
+          Our team is here to help and will respond as soon as possible. Let’s
+          connect and start a conversation today!
+        </p>
+      </div>
+      <!-- get-in-touch-form -->
+      <div class="get-in-touch-form-container">
+        <!-- get-in-touch-form-upper-section -->
+        <div class="get-in-touch-form-upper-section">
+          <div>
+            <h3>Phone</h3>
+            <p>203-469-5608</p>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p>rickwade@aandaappliancerepair.com</p>
+          </div>
+        </div>
+        <!-- get-in-touch-form -->
+        <form class="get-in-touch-form" action="">
+          <input type="text" placeholder="Name" required />
+          <input type="text" placeholder="Email" required />
+          <input type="text" placeholder="Message" required />
+        </form>
+        <!-- get-in-touch-form-bottom-section -->
+        <div class="get-in-touch-form-bottom-section">
+          <img
+            src="https://aarepair.wsihublab.com/wp-content/uploads/2025/07/Facebook.png"
+            alt="facebook-icon" />
+          <img
+            src="https://aarepair.wsihublab.com/wp-content/uploads/2025/07/Instagram.png"
+            alt="instagram-icon" />
+          <img
+            src="https://aarepair.wsihublab.com/wp-content/uploads/2025/07/Email.png"
+            alt="email-icon" />
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
