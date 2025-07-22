@@ -7,6 +7,109 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- hero section -->
+     <style>
+        .hero-section{
+           background-color: black;
+           min-height:80vh;
+           font-family: sans-serif;
+           background: linear-gradient(to left ,rgba(0,0,0,0),rgba(0,0,0,1.6)),url('https://aarepair.wsihublab.com/wp-content/uploads/2025/07/hero-bg-image.png') no-repeat center center / cover;
+           
+        }
+
+        .hero-header{
+          /* background-color: blue; */
+          padding: 0.2rem 1rem;
+          padding-right: 5rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          & > img{
+          object-fit: cover;
+          width: 180px;
+          height: 100px;
+          }
+        
+          & > .hero-header-nav {
+            width: 50%;
+            font-size: 1.2rem;
+            & > .nav-links {
+            display: flex;
+            font-weight: bold;
+            /* background-color: beige; */
+            justify-content: space-between;
+            }
+
+            & > .nav-links > li  {
+              list-style-type: none;
+            }
+
+            & > .nav-links > li > a {
+              color: white;
+              text-decoration: none;
+            }
+        }
+
+        & > button {
+          outline: transparent;
+          border: 2px solid white;
+          padding: 0.5rem 1rem;
+          background: transparent;
+          color:  white;
+          border-radius: 150px;
+        }
+      }
+
+      .hero-content {
+        padding: 5rem 3rem;
+        & > button{
+          background-color: red;
+          border: 2px solid white;
+          padding: 0.5rem 1rem;
+          border-radius: 150px;
+        }
+      }
+      .hero-content > p {
+        color:white;
+        width: 800px;
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+      }
+
+     </style>
+    <!-- header -->
+    <div class="hero-section">
+      <header class="hero-header">
+         <img src="https://aarepair.wsihublab.com/wp-content/uploads/2025/07/AA_white-2.png" alt="a_and_a_repair_logo">
+         <!-- nav div -->
+          <nav class="hero-header-nav">
+            <ul class="nav-links">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About Us</a>
+              </li>
+              <li>
+                <a href="">Appliance Repair</a>
+              </li>
+              <li>
+                <a href="">Testimonials</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- contact us button -->
+           <button>Contact Us</button>
+      </header>
+      <!-- hero content -->
+       <div class="hero-content">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellat voluptate excepturi ullam asperiores amet enim natus repudiandae nulla sunt dignissimos reiciendis esse laboriosam mollitia accusantium aut quis quod quas eum illo, et harum veniam veritatis? Quas alias quam, numquam perspiciatis doloribus tenetur, molestiae, ipsum aliquam id quia iusto fugit.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic impedit est eligendi rerum alias nisi dolor commodi, repellat quis at.</p>
+         <button>learn more</button>
+       </div>
+
+    </div>
+
     <!-- family sub text -->
     <style>
       #family-sub-header {
